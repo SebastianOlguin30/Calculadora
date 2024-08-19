@@ -36,4 +36,3 @@ public class OperacionesMatematicasTest {
         assertThrows(IllegalArgumentException.class, () -> operaciones.factorial(-1), "Debe lanzar una excepción para números negativos");
     }
 }
-
